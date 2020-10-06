@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-api_key = "b64fc1b3dcmshed227a3fc11d5dcp1955fcjsnda6d8b64faea"
+api_key = ""
 headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
     'x-rapidapi-key': api_key,
