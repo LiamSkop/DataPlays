@@ -1,34 +1,28 @@
 # DataPlays
 
-This repository contains a Python script that allows you to extract and analyze data from the API-Football API. Specifically, it allows you to retrieve league standings and team fixtures for a given league and country, and analyze the outcomes of the first x fixtures for each team in the league.
+This repository contains a Python script that allows you to extract and analyze data from the [API-Football API](https://rapidapi.com/api-sports/api/api-football). Specifically, it allows you to retrieve league standings and team fixtures for a given league and country, and analyze the outcomes of the first x fixtures for each team in the league.
 
-Requirements
-To use this script, you need to have a RapidAPI key, which you can obtain by signing up for a RapidAPI account. You also need to have the following Python libraries installed:
+##Requirements
+To use this script, you need to have a RapidAPI key, which you can obtain by signing up for a [RapidAPI account](https://rapidapi.com/auth/sign-up). You also need to have the following Python libraries installed:
 
-requests
-pandas
-matplotlib
-Usage
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/{USERNAME}/{REPOSITORY_NAME}.git
-Install the required Python libraries:
-Copy code
-pip install -r requirements.txt
-Open the script in your Python editor of choice.
+- `requests`
+- `pandas`
+- `matplotlib`
 
-Insert your RapidAPI key in the api_key variable.
 
-python
-Copy code
-api_key = "*insert api key*"
-Customize the following variables according to your needs:
-python
-Copy code
-country = "England"
+##Usage
+1. Clone the repository:
+`git clone https://github.com/{USERNAME}/{REPOSITORY_NAME}.git`
+2. Install the required Python libraries:
+`pip install -r requirements.txt`
+3. Open the script in your Python editor of choice.
+4. Insert your RapidAPI key in the api_key variable.
+`api_key = "*insert api key*"`
+5. Customize the following variables according to your needs:
+`country = "England"
 league_name = "Premier League"
 x = 5
+`
 country: the name of the country of the league you want to analyze
 league_name: the name of the league you want to analyze
 x: the number of fixtures you want to analyze
