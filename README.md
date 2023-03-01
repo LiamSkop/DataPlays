@@ -51,22 +51,25 @@ import pandas as pd
 import math
 import matplotlib.pyplot as plt
 import bisect
+`
 
-Set the RapidAPI key and headers for requests
+` \# Set the RapidAPI key and headers for requests
 api_key = "*insert api key*"
 headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
     'x-rapidapi-key': api_key,
-}
+} `
 
-\# Set the API URLs
+` \# Set the API URLs
 leagues_from_id = "https://api-football-v1.p.rapidapi.com/v2/leagues/league/" #leagues
 leagues_url = "https://api-football-v1.p.rapidapi.com/v2/leagues/country/" #leagues
 team_from_id = "https://api-football-v1.p.rapidapi.com/v2/teams/team/" #team
 teams_url = "https://api-football-v1.p.rapidapi.com/v2/teams/league/" #team
 league_table_url = "https://api-football-v1.p.rapidapi.com/v2/leagueTable/" #league
 fixtures_from_team_and_league_url = "https://api-football-v1.p.rapidapi.com/v2/fixtures/team/" #fixtures
+` 
 
+`
 def get_api(url):
     '''
     Send a GET
