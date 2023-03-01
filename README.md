@@ -1,6 +1,6 @@
 # DataPlays
 
-This repository contains a Python script that allows you to extract and analyze data from the [API-Football API](https://rapidapi.com/api-sports/api/api-football). Specifically, it allows you to retrieve league standings and team fixtures for a given league and country, and analyze the outcomes of the first x fixtures for each team in the league.
+This repository contains the Python script leaguePositions.py that allows you to extract and analyze data from the [API-Football API](https://rapidapi.com/api-sports/api/api-football). Specifically, it allows you to retrieve league standings and team fixtures for a given league and country, and analyze the outcomes of the first x fixtures for each team in the league.
 
 ## Requirements
 To use this script, you need to have a RapidAPI key, which you can obtain by signing up for a [RapidAPI account](https://rapidapi.com/auth/sign-up). You also need to have the following Python libraries installed:
