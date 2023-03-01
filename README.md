@@ -2,7 +2,7 @@
 
 This repository contains a Python script that allows you to extract and analyze data from the [API-Football API](https://rapidapi.com/api-sports/api/api-football). Specifically, it allows you to retrieve league standings and team fixtures for a given league and country, and analyze the outcomes of the first x fixtures for each team in the league.
 
-##Requirements
+## Requirements
 To use this script, you need to have a RapidAPI key, which you can obtain by signing up for a [RapidAPI account](https://rapidapi.com/auth/sign-up). You also need to have the following Python libraries installed:
 
 - `requests`
@@ -10,7 +10,7 @@ To use this script, you need to have a RapidAPI key, which you can obtain by sig
 - `matplotlib`
 
 
-##Usage
+## Usage
 1. Clone the repository:
 `git clone https://github.com/{USERNAME}/{REPOSITORY_NAME}.git`
 2. Install the required Python libraries:
@@ -29,7 +29,7 @@ x = 5
 
 6. Run the script.
 
-##Functions
+## Functions
 
 The following functions are included in the script:
 
@@ -43,7 +43,7 @@ The following functions are included in the script:
 
 - `get_seasons_list(country, league, x)`: Gets a list of Season objects for a league and number of fixtures. Each Season object contains the league, team points, and team final position for the specified number of fixtures.
 
-##Example
+## Example
 
 `import requests
 import pandas as pd
