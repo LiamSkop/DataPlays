@@ -45,20 +45,21 @@ The following functions are included in the script:
 
 ## Example
 
-` import requests
+`
+import requests
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
 import bisect
 
-# Set the RapidAPI key and headers for requests
+Set the RapidAPI key and headers for requests
 api_key = "*insert api key*"
 headers = {
     'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
     'x-rapidapi-key': api_key,
 }
 
-# Set the API URLs
+\# Set the API URLs
 leagues_from_id = "https://api-football-v1.p.rapidapi.com/v2/leagues/league/" #leagues
 leagues_url = "https://api-football-v1.p.rapidapi.com/v2/leagues/country/" #leagues
 team_from_id = "https://api-football-v1.p.rapidapi.com/v2/teams/team/" #team
@@ -69,10 +70,10 @@ fixtures_from_team_and_league_url = "https://api-football-v1.p.rapidapi.com/v2/f
 def get_api(url):
     '''
     Send a GET
-    # Calculate the team's final position in the league based on their total points
+    \# Calculate the team's final position in the league based on their total points
     team_final_position = sorted(team_points, reverse=True).index(points) + 1
     
-    # Create a Season object and add it to the list of seasons
+    \# Create a Season object and add it to the list of seasons
     season = Season(league, team_points, team_final_position)
     seasons_list.append(season)
 
