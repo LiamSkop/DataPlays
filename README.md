@@ -45,7 +45,7 @@ The following functions are included in the script:
 
 ## Example
 
-`import requests
+` import requests
 import pandas as pd
 import math
 import matplotlib.pyplot as plt
