@@ -69,10 +69,7 @@ league_table_url = "https://api-football-v1.p.rapidapi.com/v2/leagueTable/" #lea
 fixtures_from_team_and_league_url = "https://api-football-v1.p.rapidapi.com/v2/fixtures/team/" #fixtures
 ` 
 
-`
-def get_api(url):
-    '''
-    Send a GET
+` def get_api(url):
     \# Calculate the team's final position in the league based on their total points
     team_final_position = sorted(team_points, reverse=True).index(points) + 1
     
