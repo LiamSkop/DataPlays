@@ -62,7 +62,6 @@ def get_first_x_fix(country, league_name, x):
     # Initialize an empty list to store the team IDs for all teams in all leagues
     all_teams = list()
     # Loop through each league ID and team ID in the league standings DataFrame
-    for league
     for league, team, results in league_fixtures:
         first_x_fix.at[league, team] = results
 
